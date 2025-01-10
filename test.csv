@@ -1,3 +1,4 @@
+{Command used to create this file : \copy (SELECT * FROM "Track" WHERE "Composer" = 'Queen') TO 'test.csv' WITH CSV DELIMITER ',' HEADER;}
 TrackId,Name,AlbumId,MediaTypeId,GenreId,Composer,Milliseconds,Bytes,UnitPrice
 422,I Want It All,36,1,1,Queen,241684,7876564,0.99
 424,Innuendo,36,1,1,Queen,387761,12664591,0.99
